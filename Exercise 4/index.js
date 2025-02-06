@@ -1,13 +1,10 @@
-
-
-const x = document.getElementById('passwordInput').value;
-const password = '123';
-
-function comparePassword(){
-    if(x == password){
+function comparePassword() {
+    const x = document.getElementById('passwordInput').value;
+    const password = '123';
+    if (x == password) {
         alert('Password is correct');
     }
-    else{
+    else {
         alert('Password is incorrect');
     }
 };
