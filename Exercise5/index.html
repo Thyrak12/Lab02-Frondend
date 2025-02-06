@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <h1>Manage Task</h1>
+    <div class="all">
+        <div class="form_container">
+            <div class="taskfill ">
+                <label for="taskInput">Task</label>
+                <input type="text" id="taskInput" placeholder="Enter your task here">
+            </div>
+            <div class="taskSelect">
+                <label for="prio">Priority</label>
+                <select name="prio" id="prio">
+                    <option value="low">Low</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+
+            <button id="addTaskButton" class="button">Add Task</button>
+
+            <button class="button" id="important">Show only important task</button>
+
+            <button class="button" id="notImportant">Show task not important</button>
+
+            <button class="button" id="showAll">Show all task</button>
+
+        </div>
+
+        <div class="container">
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

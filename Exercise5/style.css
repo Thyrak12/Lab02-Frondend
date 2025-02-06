@@ -1,0 +1,35 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0 0 30%; 
+
+}
+
+.button{
+    flex: none; /* Prevents shrinking */
+    width: fit-content; /* Keeps button's natural width */
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+
+}
+
+
+p {
+    padding-left: 10px;
+}
